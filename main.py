@@ -3,8 +3,8 @@ import plotly.figure_factory as ff
 import numpy as np
 from numpy.random import normal
 
-st.title('Statistics Visualize.')
-st.title('Interactive Normal Distribution')
+st.title('Statistics Visualize Tool')
+st.title('Interactive Normal Distribution Curve')
 
 with st.sidebar:
     option = st.selectbox(':blue[Navigation]', ('Normal Distribution', 'KDE'))
